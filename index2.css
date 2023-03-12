@@ -1,0 +1,86 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
+.mySlides {
+    
+    display: none;
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+
+  }
+  
+.mySlides img{
+
+      width: 100%;
+      height: 500px;
+  
+  }
+  @keyframes fade
+   {
+    from {opacity: .4}
+    to {opacity: 1}
+     }
+    .grid-container
+{
+   
+    display: grid;
+    grid-template-columns: repeat(3,410px);
+    gap: 20px;
+    margin-left: 40px;
+    text-align: center;
+
+}
+.food
+{
+    
+    background-color: rgb(245, 234, 234);
+}
+.food img{
+    height: 300px;
+    width: 350px;
+    padding: 2rem;
+    transition: width 2s, height 2s;
+}
+.food img:hover{
+    width: 450px;
+    height: 400;
+    
+}
+.heading
+{
+    background-color:rgb(177, 120, 45);
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+    
+} 
+.heading2
+{
+    text-align: center;
+    background-color: rgb(153, 114, 64);
+    font-size: 1.7rem;
+    color: white;
+}
+.food button{
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: rgb(87, 46, 46);
+    color: white;
+    font-size: 1.3rem;
+    transition: width 1s;
+}
+.food button:hover{
+    width: 10rem;
+    background-color:green;
+}
+.paise
+{
+    position: relative;
+    right: 170px;
+    top: 30px;
+    font-style: italic;
+
+}

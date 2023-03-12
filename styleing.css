@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul{
+    display: flex;
+  
+}
+#navbar ul li{
+    list-style: none;
+   
+    
+}
+#navbar ul li a{
+   text-decoration: none;
+   padding: 1.2rem;
+   color: white;  
+   font-size: 1.1rem;  
+}
+#navbar
+{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 3rem;
+}
+#navbar ul li a:hover{
+    color: yellowgreen
+}
+/*styling of home(2nd div)*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 10px;
+    padding: 10px;
+}
+#home::before{
+    background: url('./bg1.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home h1{
+    font-size: 2.3rem;
+    color: white; 
+}
+#home p{
+    text-align: center;
+    margin: 7px 300px;
+    color: white; 
+}
+#home button
+{
+    padding: 5px 10px ;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgb(139, 102, 53);
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+   cursor: pointer;
+   width: 5rem;
+}
+
+#home button:hover
+{
+   background-color:purple;
+   width: 6rem;
+}
+
+/*styling of our services*/
+#services
+{
+   
+    margin-top: 300px;
+    height: 400px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    margin-top: 0px;
+}
+.part img
+{
+  height: 200px;
+  width: 270px;
+
+}
+.part{
+    border: 1px solid rgb(161, 102, 102);
+     border-radius: 16px;
+    margin: 0px 10px;
+    width: 550px;
+    background-color: rgb(245, 234, 234);
+    
+}
+#services h1{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 2.3rem;
+    
+   
+}
+.part img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.part h2{
+    text-align: center;
+     
+}
+.part p{
+    text-align: center;
+}
+
+/*css for clents-section*/
+.cls
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cls img{
+    height: 90px;
+    width: auto;
+    margin: 40px;
+}
+ .heading{
+   
+    text-align: center;
+    font-size: 2.3rem;
+
+}
+
+#client::before{
+    background: url('./our_cli.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    margin-top: 49px;
+
+}
+#contant
+{
+  position: relative;
+  top: 85px;
+  font-size: 1.2rem;
+  
+}
+.info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#contant h1{
+    text-align: center;
+}
+input
+{
+    width: 270px;
+}
+.orm
+{
+    margin: 10px;
+    font-size: 1.3rem;
+     font-weight: bold;
+}
+
+#contant::before
+{
+    background: url('./contact-us.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.82;
+}
+/*styling of footer*/
+footer{
+    position: relative;
+    top: 95px;
+    background-color: black;
+}
+.foot
+{
+    text-align: center;
+    color: white;
+}
