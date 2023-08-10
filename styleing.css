@@ -203,3 +203,10 @@ footer{
     text-align: center;
     color: white;
 }
+
+@media  only screen and (max-width:786px)
+ {
+     #home p{
+        margin: 0px;
+     }
+}
